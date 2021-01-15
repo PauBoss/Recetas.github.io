@@ -1,0 +1,134 @@
+* {
+	font-family: Arial, Verdana;
+	font-size: 18px;
+	color: black;
+}
+
+body {
+	margin-top: 3rem;
+}
+
+div#contenedor {
+	display: flex;
+	flex-flow: row;
+	width: 80%;
+	height: 500px;
+	background-color: lightgrey;
+	margin: 0 auto;
+}
+
+nav {
+	display: flex;
+	flex-flow: column;
+	width: 20%;
+	text-align: center;
+}
+
+div#cuerpo {
+	width: 80%;
+}
+
+ul li {
+	list-style-type: none;
+	border: 2px solid brown;
+	background: orange;
+	color: red;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 15px;
+	width: 114%;
+	margin-left: -40px;
+}
+
+a {
+	color: brown;
+	text-decoration: none;
+}
+
+li:hover {
+	background-color: white;
+}
+
+div#cuerpo {
+	display: flex;
+	flex-direction: column;
+}
+
+@font-face {
+	font-family: AlohaSummer;
+	src: url(imagenes/AlohaSummer.ttf);
+}
+
+header {
+	height: 10%;
+	background-color: orange;
+	font-family: AlohaSummer;
+	font-size: 40px;
+	padding-left: 30px;
+}
+
+main {
+	height: 90%;
+	padding: 30px;
+}
+
+hr {
+	border: 1px solid black;
+	margin: 0;
+}
+
+div#formulario {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+div#botones {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 20%;
+	padding: 4px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+input {
+	width: 70%;
+}
+
+input[name="email"] {
+	margin-left: 93px;
+}
+
+input[name="plato"] {
+	margin-left: 30px;
+}
+
+input[id="tipos"] {
+	margin-left: 133px;
+}
+
+input[type="submit"] {
+	padding: 5px;
+	margin-right: 15px;
+}
+
+textarea {
+	width: 88%;
+	margin-left: 15px;
+}
+
+footer {
+	width: 80%;
+	margin: 0 auto;
+	height: 6rem;
+	border-bottom-left-radius: 20px;
+	background-color: orange;
+	text-align: right;
+}
+
+div#footer {
+	padding-top: 20px;
+	padding-right: 20px;
+}

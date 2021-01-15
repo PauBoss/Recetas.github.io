@@ -1,0 +1,130 @@
+* {
+	font-family: Arial, Verdana;
+	font-size: 18px;
+	color: black;
+}
+
+body {
+	margin-top: 3rem;
+}
+
+div#contenedor {
+	display: flex;
+	flex-flow: row;
+	width: 80%;
+	height: 500px;
+	background-color: lightgrey;
+	margin: 0 auto;
+}
+
+nav {
+	display: flex;
+	flex-flow: column;
+	width: 20%;
+	text-align: center;
+}
+
+div#cuerpo {
+	width: 80%;
+}
+
+ul li {
+	list-style-type: none;
+	border: 2px solid brown;
+	background: orange;
+	color: red;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 15px;
+	width: 114%;
+	margin-left: -40px;
+}
+
+a {
+	color: brown;
+	text-decoration: none;
+}
+
+li:hover {
+	background-color: white;
+}
+
+div#cuerpo {
+	display: flex;
+	flex-direction: column;
+}
+
+@font-face {
+	font-family: AlohaSummer;
+	src: url(imagenes/AlohaSummer.ttf);
+}
+
+header {
+	height: 10%;
+	background-color: orange;
+	font-family: AlohaSummer;
+	font-size: 40px;
+	padding-left: 30px;
+}
+
+main {
+	height: 90%;
+	padding: 30px;
+}
+
+div#principal {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+div#elementos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+div#video {
+	margin-bottom: 10px;
+}
+
+div#imagen2 {
+	margin-right: 10px;
+}
+
+table {
+	width: 70%;
+}
+
+th,
+td {
+	border: 1px solid black;
+	background-color: #D6EAF8;
+	text-align: center;
+}
+
+th {
+	background-color: #2471A3;
+}
+
+div#tabla {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 15px;
+}
+
+footer {
+	width: 80%;
+	margin: 0 auto;
+	height: 6rem;
+	border-bottom-left-radius: 20px;
+	background-color: orange;
+	text-align: right;
+}
+
+div#footer {
+	padding-top: 20px;
+	padding-right: 20px;
+}
